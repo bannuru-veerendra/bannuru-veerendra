@@ -1,15 +1,21 @@
 <div align="center">
 
 # Bannuru Veerendra
-### Backend Engineer · API Systems · Bengaluru
 
-I build **REST APIs with live OpenAPI docs you can click through** — JWT auth, RBAC, Redis caching, and Postgres-backed services, not slide decks.
+**Backend Engineer** · API Systems · Bengaluru
 
-`Python` · `Flask` · `FastAPI` · `PostgreSQL` · `Redis` · `JWT`
+I build **REST APIs with live OpenAPI docs you can click through** —  
+JWT auth, RBAC, Redis caching, and Postgres-backed services, not slide decks.
 
 <br/>
 
-[Portfolio](https://veeru.pythonanywhere.com/) · [LinkedIn](https://www.linkedin.com/in/bannuru-veerendra/) · [Email](mailto:bannuru.veerendra@gmail.com)
+`Python` · `Flask` · `FastAPI` · `PostgreSQL` · `Redis` · `JWT`
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-111827?style=for-the-badge&logo=safari&logoColor=white)](https://veeru.pythonanywhere.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bannuru-veerendra/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bannuru.veerendra@gmail.com)
 
 </div>
 
@@ -17,21 +23,21 @@ I build **REST APIs with live OpenAPI docs you can click through** — JWT auth,
 
 ### Open this first
 
-| Proof | Link |
-|-------|------|
-| RideCare API docs | [OpenAPI](https://ride-care.onrender.com/docs) |
-| AccessVault Swagger | [Swagger UI](https://accessvault-api-8shv.onrender.com/api/swagger-ui/) |
-| Live product | [RideCare app](https://ride-care-jade.vercel.app) |
-| Portfolio site | [veeru.pythonanywhere.com](https://veeru.pythonanywhere.com/) |
+<div align="center">
 
-No screenshots required — hit the endpoints.
+[![RideCare App](https://img.shields.io/badge/RideCare-Live_App-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ride-care-jade.vercel.app)
+[![RideCare API](https://img.shields.io/badge/RideCare-OpenAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://ride-care.onrender.com/docs)
+[![AccessVault](https://img.shields.io/badge/AccessVault-Swagger-000000?style=for-the-badge&logo=swagger&logoColor=white)](https://accessvault-api-8shv.onrender.com/api/swagger-ui/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Site-2F73B8?style=for-the-badge&logo=python&logoColor=white)](https://veeru.pythonanywhere.com/)
+
+</div>
 
 ---
 
 ### How I ship APIs
 
-| Concern | What I actually implement |
-|---------|---------------------------|
+| Concern | What I implement |
+|---------|------------------|
 | **Auth** | Access + refresh JWTs, httpOnly sessions, bcrypt, token rotation |
 | **Authorization** | Role-based access (RBAC) on protected routes |
 | **Abuse control** | Rate limiting on auth and public forms |
@@ -48,48 +54,48 @@ I optimize for **services someone else can trust and extend** — clear boundari
 <tr>
 <td width="50%" valign="top">
 
-**[RideCare](https://github.com/bannuru-veerendra/ride-care)**  
+#### [RideCare](https://github.com/bannuru-veerendra/ride-care)
 Vehicle companion — fuel, service history, docs, analytics.
 
 Server owns mileage math, live odometer sync, Redis-backed summaries, and httpOnly JWT sessions. Frontend is React; the API is the product.
 
 `FastAPI` `React` `PostgreSQL` `Redis`
 
-[Live app](https://ride-care-jade.vercel.app) · [OpenAPI](https://ride-care.onrender.com/docs)
+→ [Live app](https://ride-care-jade.vercel.app) · [OpenAPI](https://ride-care.onrender.com/docs)
 
 </td>
 <td width="50%" valign="top">
 
-**[AccessVault](https://github.com/bannuru-veerendra/access-vault)**  
+#### [AccessVault](https://github.com/bannuru-veerendra/access-vault)
 Enterprise-style user management API.
 
 RBAC, bcrypt, rate limits, Swagger, health checks — designed like an internal auth service, not a tutorial CRUD app.
 
 `Flask` `PostgreSQL` `Redis`
 
-[Live API](https://accessvault-api-8shv.onrender.com/) · [Swagger](https://accessvault-api-8shv.onrender.com/api/swagger-ui/)
+→ [Live API](https://accessvault-api-8shv.onrender.com/) · [Swagger](https://accessvault-api-8shv.onrender.com/api/swagger-ui/)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**[Portfolio](https://github.com/bannuru-veerendra/portfolio)**  
+#### [Portfolio](https://github.com/bannuru-veerendra/portfolio)
 Personal site backed by a small Flask API.
 
 Contact form with validation, rate limiting, and email delivery — the site is the client; the API is intentional.
 
 `Flask` `JavaScript`
 
-[Live site](https://veeru.pythonanywhere.com/)
+→ [Live site](https://veeru.pythonanywhere.com/)
 
 </td>
 <td width="50%" valign="top">
 
-**Also built**  
-[DevShare](https://github.com/bannuru-veerendra/dev-share) — developer social platform (auth, posts, feeds)  
-[AccessVault FastAPI](https://github.com/bannuru-veerendra/access-vault-fastapi) — same auth model, FastAPI rewrite  
-[SecurePay](https://github.com/bannuru-veerendra/secure-pay-fraud-detection) — fraud signals + API surface
+#### Also built
+- [DevShare](https://github.com/bannuru-veerendra/dev-share) — developer social (auth, posts, feeds)
+- [AccessVault FastAPI](https://github.com/bannuru-veerendra/access-vault-fastapi) — same auth model, FastAPI rewrite
+- [SecurePay](https://github.com/bannuru-veerendra/secure-pay-fraud-detection) — fraud signals + API surface
 
 </td>
 </tr>
@@ -97,21 +103,37 @@ Contact form with validation, rate limiting, and email delivery — the site is 
 
 ---
 
-### Stack I reach for
+### Stack
 
-**Backend** — Python, Flask, FastAPI, SQLAlchemy, Gunicorn, Alembic  
-**Data** — PostgreSQL, Redis · MongoDB when the shape fits  
-**Auth & contracts** — JWT, RBAC, OpenAPI / Swagger, REST boundaries  
-**Frontend (when needed)** — React, TypeScript, Tailwind CSS  
-**Delivery** — GitHub Actions, Render, Vercel, PythonAnywhere
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+</div>
+
+<br/>
+
+**Also:** Alembic · Gunicorn · OpenAPI / Swagger · Tailwind CSS · Render · Vercel · PythonAnywhere
 
 ---
 
 <div align="center">
 
-Open to **backend / API engineering** roles in Bengaluru or remote.  
-Prefer teams that ship real services — happy to walk through auth, caching, or API design on a call.
+### Open to opportunities
 
-[bannuru.veerendra@gmail.com](mailto:bannuru.veerendra@gmail.com)
+**Backend / API engineering** — Bengaluru · Hyderabad · Chennai · Remote
+
+Happy to walk through auth, caching, or API design on a call.
+
+[![Email](https://img.shields.io/badge/bannuru.veerendra@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bannuru.veerendra@gmail.com)
 
 </div>
